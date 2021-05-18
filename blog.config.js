@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
+  title: 'The Language Arcade',
+  author: 'Hannah Zeng',
+  email: 'tz2486@barnard.edu',
+  link: 'https://hannahz.vercel.app',
+  description: 'a text-based log of ideas by hannah.',
   lang: 'en-US',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
