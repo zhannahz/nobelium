@@ -40,7 +40,7 @@ const BLOG = {
     gitalkConfig: {
       repo: 'nobelium-comment', // The repository of store comments
       owner: 'zhannahz',
-      admin: [zhannahz],
+      admin: [],
       clientID: '71f1004c9fdcca2a0811',
       clientSecret: '75303f6619a74fc1c8423e8d3a52939934504e38',
       distractionFreeMode: false
