@@ -8,14 +8,10 @@
   font-style: normal;
   font-named-instance: 'Regular';
 <<<<<<< HEAD
-<<<<<<< HEAD
   src: url('/fonts/apercu-mono-light.ttf') format('woff2');
 =======
   src: url('/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
 >>>>>>> parent of ecefde6 (use apercus)
-=======
-  src: url('/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
->>>>>>> parent of 3bbeec2 (Revert "fix!")
 }
 
 @font-face {
