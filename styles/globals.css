@@ -2,39 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: 'IBM Plex Sans';
+  font-family: 'Apercus';
   font-weight: 100 900;
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
-  src: url('/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
+  src: url('/fonts/apercu-mono-light.ttf') format('ttf');
 }
 
 @font-face {
-  font-family: 'IBM Plex Sans';
+  font-family: 'Apercus';
   font-weight: 100 900;
   font-display: swap;
   font-style: italic;
-  font-named-instance: 'Italic';
-  src: url('/fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
+  font-named-instance: 'Bold';
+  src: url('/fonts/apercu-mono-light.ttf') format('ttf');
 }
 
 @font-face {
-  font-family: 'Source Serif';
+  font-family: 'Apercus';
   font-weight: 100 900;
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
-  src: url('/fonts/SourceSerif.var.woff2') format('woff2');
+  src: url('/fonts/apercu-mono-light.ttf') format('ttf');
 }
 
 @font-face {
-  font-family: 'Source Serif';
+  font-family: 'Apercus Medium';
   font-weight: 100 900;
   font-display: swap;
-  font-style: italic;
-  font-named-instance: 'Italic';
-  src: url('/fonts/SourceSerif-Italic.var.woff2') format('woff2');
+  font-style: bold;
+  font-named-instance: 'bold';
+  src: url('/fonts/apercu-mono-medium.ttf') format('ttf');
 }
 
 html {
