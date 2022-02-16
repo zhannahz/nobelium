@@ -7,7 +7,11 @@
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
+<<<<<<< HEAD
   src: url('/fonts/apercu-mono-light.ttf') format('woff2');
+=======
+  src: url('/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
+>>>>>>> parent of ecefde6 (use apercus)
 }
 
 @font-face {
