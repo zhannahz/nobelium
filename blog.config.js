@@ -1,30 +1,31 @@
 const BLOG = {
-  title: 'The Language Arcade',
+  title: 'Hannah Writes',
   author: 'Hannah Zeng',
   email: 'tz2486@barnard.edu',
-  link: 'https://hannahz.vercel.app',
-  description: 'a text-based log of ideas by hannah.',
-  lang: 'en-US',
+  link: 'https://hannahz.me',
+  description: 'about Jamais Vu; about the possible.',
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#111827', // use hex value, don't forget '#'
+  darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // if leave this empty, current year will be used.
+  since: 2020, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
-  showAbout: true, // WIP
-  showArchive: true, // WIP
-  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
+  showAbout: true,
+  showArchive: true,
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/hannahzengtx',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion', 'Cognitive Science', 'indie'],
+    keywords: ['Cognitive Science', 'indie', 'System', 'Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
-    provider: 'ga', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
       tracker: '', // e.g 'https://ackee.craigary.net/tracker.js'
       dataAckeeServer: '', // e.g https://ackee.craigary.net , don't end with a slash
@@ -36,13 +37,13 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'gitalk', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'nobelium-comment', // The repository of store comments
-      owner: 'zhannahz',
+      repo: '', // The repository of store comments
+      owner: '',
       admin: [],
-      clientID: '71f1004c9fdcca2a0811',
-      clientSecret: '75303f6619a74fc1c8423e8d3a52939934504e38',
+      clientID: '',
+      clientSecret: '',
       distractionFreeMode: false
     },
     utterancesConfig: {
