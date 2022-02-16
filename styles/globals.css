@@ -8,10 +8,14 @@
   font-style: normal;
   font-named-instance: 'Regular';
 <<<<<<< HEAD
+<<<<<<< HEAD
   src: url('/fonts/apercu-mono-light.ttf') format('woff2');
 =======
   src: url('/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
 >>>>>>> parent of ecefde6 (use apercus)
+=======
+  src: url('//fonts/Inter.var.woff2') format('woff2');
+>>>>>>> parent of ec1cd34 (fix inter?)
 }
 
 @font-face {
@@ -20,7 +24,11 @@
   font-display: swap;
   font-style: italic;
   font-named-instance: 'Italic';
+<<<<<<< HEAD
   src: url('/fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
+=======
+  src: url('//fonts/Inter.var.woff2') format('woff2');
+>>>>>>> parent of ec1cd34 (fix inter?)
 }
 
 @font-face {
@@ -29,7 +37,11 @@
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
+<<<<<<< HEAD
   src: url('/fonts/SourceSerif.var.woff2') format('woff2');
+=======
+  src: url('/fonts/Inter.var.woff2') format('woff2');
+>>>>>>> parent of ec1cd34 (fix inter?)
 }
 
 @font-face {
