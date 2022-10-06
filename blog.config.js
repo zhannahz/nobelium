@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'Hannah Writes',
+  title: '未闻之事 Unheard Reality',
   author: 'Hannah Zeng',
   email: 'tz2486@barnard.edu',
   link: 'https://hannahz.me',
-  description: 'about Jamais Vu; about the possible.',
+  description: '用大脑研究大脑，用系统研究系统.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
